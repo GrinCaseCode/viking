@@ -12,9 +12,9 @@
 		padding-left: 240px;
 	}
     .billbord .descr-big {
-     margin-bottom: 80px;
- }
- .descr-big {
+       margin-bottom: 80px;
+   }
+   .descr-big {
     font-size: 20px;
     line-height: 30px;
 }
@@ -75,9 +75,9 @@
         padding: 0 10px;
     }
     .tabs {
-     margin: 0 -10px;
- }
- .descr-section {
+       margin: 0 -10px;
+   }
+   .descr-section {
     font-size: 17px;
     line-height: 28px;
     padding-bottom: 30px;
@@ -140,7 +140,7 @@
     right: -126px;
 }
 .item-location {
- font-size: 16px;
+   font-size: 16px;
 }
 .locations-block {
     width: 305px;
@@ -449,9 +449,9 @@
     }
     .header.active,
     .header.fixed {
-     background: #3F576E; 
- }
- .logo-main {
+       background: #3F576E; 
+   }
+   .logo-main {
     font-size: 13px;
     line-height: 16px;
     color: #F5F5F5;
@@ -657,7 +657,9 @@
         display: block;
     }
     .arrow-link {
-        display: none;
+        position: absolute;
+        right: 15px;
+        top: 50%;
     }
     .item-room__value span, .item-room__price span {
         font-size: 16px;
