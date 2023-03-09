@@ -856,6 +856,7 @@ form {
 }
 .slider-photos .slick-arrow:hover {
 	background: #3F576E;
+	color: #fff !important;
 }
 .slider-photos .slick-prev {
 	left: 7px;
