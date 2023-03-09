@@ -157,6 +157,9 @@
 .item-room__left {
     width: 305px;
 }
+.footer-contacts__bottom .list-social {
+    margin-left: 40px;
+}
 }
 
 @media only screen and (max-width : 1350px) {
