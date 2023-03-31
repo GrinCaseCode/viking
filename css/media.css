@@ -12,9 +12,9 @@
 		padding-left: 240px;
 	}
     .billbord .descr-big {
-     margin-bottom: 80px;
- }
- .descr-big {
+       margin-bottom: 80px;
+   }
+   .descr-big {
     font-size: 20px;
     line-height: 30px;
 }
@@ -25,6 +25,20 @@
 }
 .item-room__price {
     margin-top: 45px;
+}
+.table-prices tr:nth-child(2) th {
+    font-size: 12px;
+    line-height: 17px;
+}
+.table-prices td, .table-prices th {
+    padding: 10px 8px;
+}
+.table-prices table {
+    font-size: 14px;
+    line-height: 20px;
+}
+.table-prices td:nth-child(2) {
+    width: 267px;
 }
 }
 @media only screen and (max-width : 1580px) {
@@ -75,9 +89,9 @@
         padding: 0 10px;
     }
     .tabs {
-     margin: 0 -10px;
- }
- .descr-section {
+       margin: 0 -10px;
+   }
+   .descr-section {
     font-size: 17px;
     line-height: 28px;
     padding-bottom: 30px;
@@ -140,7 +154,7 @@
     right: -126px;
 }
 .item-location {
- font-size: 16px;
+   font-size: 16px;
 }
 .locations-block {
     width: 305px;
@@ -159,6 +173,65 @@
 }
 .footer-contacts__bottom .list-social {
     margin-left: 40px;
+}
+.value-contacts {
+    font-size: 22px;
+    line-height: 35px;
+}
+.form-contacts {
+    padding: 21px 55px;
+    padding-bottom: 33px;
+}
+.image-about {
+    margin-left: 50px;
+}
+.content-about:nth-child(even) .image-about, .section-about_bottom .image-about {
+    margin-right: 50px;
+}
+.section-about_bottom .content-about:nth-child(2) .image-about, .section-about_bottom .content-about:nth-child(1) .image-about {
+    margin-left: 50px;
+}
+.section-about .title-section {
+    font-size: 29px;
+    line-height: 43px;
+    margin-bottom: 30px;
+}
+.descr-medium {
+    font-size: 16px;
+    line-height: 26px;
+}
+.billbord_about .wrapper-billbord {
+    max-width: 650px;
+}
+.section-about_bottom .content-about:nth-child(2) .image-about {
+    width: 610px;
+}
+.section-about {
+    line-height: 24px;
+}
+.item-news__title {
+    font-size: 21px;
+    line-height: 35px;
+    padding: 13px;
+}
+.item-news {
+    height: 305px;
+    margin-bottom: 30px;
+}
+.article-content {
+    line-height: 24px;
+    padding-right: 35px;
+}
+.article blockquote {
+    padding: 25px 45px;
+    line-height: 25px;
+}
+.article-content p, 
+.article-content li {
+    margin-bottom: 20px;
+}
+.billbord-article {
+    height: 365px;
 }
 }
 
@@ -277,6 +350,91 @@
     .item-room__left {
         width: 290px;
     }
+    .table-prices table {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .table-prices tr:nth-child(2) th {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .table-prices td:nth-child(2) {
+        width: 225px;
+    }
+    .table-prices td:first-child {
+        font-size: 13px;
+    }
+    .value-contacts {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .form-contacts {
+        padding: 21px 35px;
+        padding-bottom: 33px;
+    }
+    .section-about {
+        line-height: 22px;
+    }
+    .section-about .title-section {
+        font-size: 27px;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+    .phone-main {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .image-about {
+        margin-left: 30px;
+    }
+    .content-about:nth-child(even) .image-about, .section-about_bottom .image-about {
+        margin-right: 30px;
+    }
+    .section-about_bottom .content-about:nth-child(2) .image-about, .section-about_bottom .content-about:nth-child(1) .image-about {
+        margin-left: 30px;
+    }
+    .image-about img {
+        max-width: 100%;
+    }
+    .image-about {
+        max-width: 60%;
+    }
+    .item-news {
+        height: 270px;
+    }
+    .item-news__title {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 11px;
+    }
+    .item-news__date {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+    .page-numbers {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .prev.page-numbers img,
+    .next.page-numbers img {
+        max-width: 120px;
+        height: auto;
+    }   
+    .billbord-article {
+        height: 320px;
+    }
+    .billbord-article h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .article-content {
+        line-height: 22px;
+        padding-right: 10px;
+    }
+    .article blockquote {
+        padding: 22px 35px;
+        line-height: 22px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -388,6 +546,34 @@
     .item-room__left {
         width: 260px;
     }
+    .value-contacts {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .form-contacts {
+        padding: 21px 25px;
+        padding-bottom: 33px;
+    }
+    #map {
+        height: 400px;
+    }
+    .page-contacts {
+        padding-bottom: 40px;
+    }
+    .section-about {
+        line-height: 20px;
+    }
+    .image-about {
+        max-width: 45%;
+    }
+    .section-about_bottom .content-about:nth-child(2) {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .article-content p,
+    .article-content li {
+        margin-bottom: 15px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -449,9 +635,9 @@
     }
     .header.active,
     .header.fixed {
-     background: #3F576E; 
- }
- .logo-main {
+       background: #3F576E; 
+   }
+   .logo-main {
     font-size: 13px;
     line-height: 16px;
     color: #F5F5F5;
@@ -549,6 +735,38 @@
 }
 .mobile-contacts .header__contact:first-child {
     margin-left: 0;
+}
+.table-prices {
+    overflow: auto;
+    margin-right: -15px;
+}
+.table-prices table {
+    width: 1000px;
+}
+.page-contacts .title-section {
+    padding-bottom: 15px;
+}
+.row_contacts > div {
+    padding-bottom: 15px;
+}
+.form-contacts {
+    margin-top: 20px;
+}
+.col_btn {
+    justify-content: center;
+}
+.form-contacts .checkbox {
+    margin-top: 20px;
+}
+.form-contacts .btn-main {
+    margin-top: 0;
+}
+.article blockquote:last-of-type {
+    margin-bottom: 0;
+}
+.article-right img,
+.article blockquote {
+    margin-bottom: 25px;
 }
 }
 
@@ -716,6 +934,58 @@
     .get-price .title-section strong {
         display: initial;
     }
+    .content-about {
+        display: block;
+    }
+    .image-about {
+        max-width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 15px;
+    }
+    .section-about {
+        padding: 35px 0;
+    }
+    .section-about_entertainment .content-about {
+        margin-bottom: 30px;
+    }
+    .section-about .title-section {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 17px;
+    }
+    .descr-medium {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .billbord_about .title-big::after {
+        width: 205px;
+        height: 6px;
+    }
+    .billbord_about .title-big {
+        margin-bottom: 20px;
+    }
+    .section-about_terrain {
+        padding-top: 0;
+    }
+    .page-news {
+        padding: 35px 0;
+    }
+    .prev.page-numbers img, 
+    .next.page-numbers img {
+        max-width: 80px;
+    }
+    .pager {
+        margin-top: 5px;
+    }
+    .breadcrumbs li::after {
+        margin: 0 10px;
+    }
+    .billbord-article {
+        height: 280px;
+        margin: 0 -15px;
+        margin-bottom: 25px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -745,6 +1015,67 @@
     .list-page {
         font-size: 16px;
         line-height: 22px;
+    }
+    .page-prices .title-section {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    .form-contacts .title-section {
+        text-align: center;
+    }
+    #map {
+        height: 350px;
+    }
+    .section-about_terrain .image-terrain {
+        margin-top: 20px;
+    }
+    .section-about .title-section {
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 15px;
+    }
+    .text-about .phone-main {
+        display: block;
+    }
+    .content-about .list-social {
+        margin: 0;
+        margin-top: 10px;
+    }
+    .section-about_bottom br + br {
+        display: none;
+    }
+    .item-news {
+        height: 240px;
+    }
+    .item-news__content::after {
+        width: 45px;
+        height: 13px;
+        right: 10px;
+        bottom: 17px;
+    }
+    .item-news__title {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 3px;
+    }
+    .item-news__content {
+        padding-right: 56px;
+    }
+    .breadcrumbs li::after {
+        margin: 0 7px;
+    }
+    .breadcrumbs {
+        padding-top: 12px;
+        padding-bottom: 13px;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .billbord-article h1 {
+        font-size: 28px;
+    }
+    .article blockquote {
+        padding: 22px 25px;
     }
 }
 
