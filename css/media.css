@@ -1072,13 +1072,13 @@
         line-height: 19px;
     }
     .billbord-article h1 {
-        font-size: 28px;
+        font-size: 28px; 
     }
     .article blockquote {
         padding: 22px 25px;
     }
 }
-
+ 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
