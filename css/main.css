@@ -1978,3 +1978,7 @@ form {
 	font-weight: 500;
 	text-align: justify;
 } 
+
+.header, .billbord {
+    padding-left: 240px;
+}
