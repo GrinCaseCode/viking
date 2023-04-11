@@ -898,7 +898,7 @@
     margin: 0;
     right: auto;
     left: 0;
-    top: 17px;
+    top: 25px;
 }
 .menu-mobile .menu {
     padding: 0;
@@ -1286,6 +1286,10 @@
 }
 .page-news .descr-section {
     padding-bottom: 20px;
+}
+.prev.page-numbers, 
+.next.page-numbers {
+    top: 5px;
 }
 }
 
