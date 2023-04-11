@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/datetimepicker/bootstrap-datetimepicker.min.css" />
+	<link rel="stylesheet" href="libs/bootstrap/glyphicon.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/modal-video/modal-video.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.6" />
+	<link rel="stylesheet" href="css/media.css?ver=1.6" />
+</head>
+<body>
+
+	<div class="wrapper wrapper_inner">
+
+		<div class="sidebar">
+			<div class="sidebar__top">
+				<a href="#" class="logo">
+					<img src="img/logo.svg" alt="alt">
+				</a>
+			</div>
+			<ul class="menu"> 
+				<li class="active"><a href="#">Главная</a></li> 
+				<li><a href="#">О комплексе</a></li>
+				<li><a href="#">Номера</a></li>
+				<li><a href="#">Прайс 2023</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<a href="#" class="btn-main btn-main_page">Забронировать</a>
+			<div class="sidebar__bottom">
+				<div class="item-rating">
+					<div class="item-rating__icon">
+						<img src="img/ic_rating1.svg" alt="alt">
+					</div>
+					<div class="item-rating__value">2,5</div>
+				</div>
+				<div class="item-rating">
+					<div class="item-rating__icon">
+						<img src="img/ic_rating2.svg" alt="alt">
+					</div>
+					<div class="item-rating__value">4,4</div>
+				</div>
+				<div class="socials-sidebar">
+					<a href="#">
+						<img src="img/vk.svg" alt="alt">
+					</a>
+					<a href="#">
+						<img src="img/ok.svg" alt="alt">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<header class="header default">
+			<div class="container">
+				<div class="header__wrapper">
+					<a href="#" class="logo-main">
+						<img src="img/logo2.svg" alt="alt">
+						<span>Гостевой комплекс <br>на берегу Чёрного моря</span>
+					</a>
+					<div class="header__item hidden-mob">Республика Крым Черноморский р-н, <br>Окунёвское с.п., с. Знаменское, корпус №10</div>
+					<div class="header__item">
+						<a href="#">info@zamokviking.ru</a>
+						<br>
+						<a href="#" class="link-header">Написать нам</a>
+					</div>
+					<div class="header__contact">Администратор <br><a href="tel:+79786301616">+7 978 630 16 16</a></div>
+					<div class="header__contact">Бронирование <br><a href="tel:+79788607601">+7 978 860 76 01</a></div>
+					<div class="socials-block">
+						<span>Быстрый ответ <br>в мессенджерах</span>
+						<ul>
+							<li><a href="#"><img src="img/soc1.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/soc2.svg" alt="alt"></a></li>
+						</ul>
+					</div>
+					<a href="tel:+79786301616" class="phone-mobile"><i class="fas fa-phone-alt"></i></a>
+					<span class='sandwich'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li class="active"><a href="#">Главная</a></li>
+					<li><a href="#">О комплексе</a></li>
+					<li><a href="#">Номера</a></li>
+					<li><a href="#">Прайс 2023</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="header__item">Республика Крым Черноморский р-н, <br>Окунёвское с.п., с. Знаменское, корпус №10</div>
+				<div class="header__item">
+					<a href="#">info@zamokviking.ru</a>
+					<br>
+					<a href="#" class="link-header">Написать нам</a>
+				</div>
+				<div class="mobile-contacts">
+					<div class="header__contact">Администратор <br><a href="tel:+79786301616">+7 978 630 16 16</a></div>
+					<div class="header__contact">Бронирование <br><a href="tel:+79788607601">+7 978 860 76 01</a></div>
+				</div>
+				<div class="socials-block">
+					<span>Быстрый ответ <br>в мессенджерах</span>
+					<ul>
+						<li><a href="#"><img src="img/soc1.svg" alt="alt"></a></li>
+						<li><a href="#"><img src="img/soc2.svg" alt="alt"></a></li>
+					</ul>
+				</div>
+				<a href="#" class="btn-main btn-main_page">Забронировать</a>
+			</div>
+		</header>
+
+		<div class="wrapper-page">
+
+			<section class="page-catalog">
+				<div class="container">
+					<h1 class="title-section"><span>НОМЕРА</span></h1>
+					<ul class="tabs">
+						<li class="active"><a href="#tab1">СТАНДАРТ</a></li>
+						<li><a href="#tab2">СТАНДАРТ +</a></li>
+						<li><a href="#tab3">ПОЛУЛЮКС</a></li>
+						<li><a href="#tab4">ЛЮКС</a></li>
+					</ul>
+					<div class="tab-container">
+						<div class="tab-pane" id="tab1">
+							<div class="row row_catalog">
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tab2">
+							<div class="row row_catalog">
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tab3">
+							<div class="row row_catalog">
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tab4">
+							<div class="row row_catalog">
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+											<span class="item-catalog__title">Номер с видом на территорию</span>
+										</a>
+										<div class="item-catalog__content">
+											<div class="features-catalog">
+												<div class="item-feature">комнат <span>1 комната</span></div>
+												<div class="item-feature">мест <span>4 человека</span></div>
+												<div class="item-feature">площадь <span>27 кв.м</span></div>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="price-main">от 10 000 Р</div>
+												<a href="#" class="link-page">Подробнее <img src="img/link.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col_contacts">
+							<div class="footer-contacts">
+								<p>Республика Крым Черноморский р-н, <br>Окунёвское с.п., с. Знаменское, корпус №10</p>
+								<div class="footer-contacts__flex">
+									<div class="footer-contacts__item">
+										<p>Бронирование </p>
+										<a href="tel:+79788607601">+7 978 860 76 01</a>
+									</div>
+									<div class="footer-contacts__item">
+										<p>Администратор</p>
+										<a href="tel:+79786301616">+7 978 630 16 16</a>
+									</div>
+								</div>
+								<div class="footer-contacts__bottom">
+									<p><a href="mailto:info@zamokviking.ru">info@zamokviking.ru</a></p>
+									<ul class="list-social">
+										<li><a href="#"><img src="img/soc1.svg" alt="alt"></a></li>
+										<li><a href="#"><img src="img/soc2.svg" alt="alt"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<ul class="menu-footer">
+								<li><a href="#">ГЛАВНАЯ</a></li>
+								<li><a href="#">О КОМПЛЕКСЕ</a></li>
+								<li><a href="#">ПРАЙС 2023</a></li>
+								<li><a href="#">НОМЕРА</a></li>
+								<li><a href="#">РАСПОЛОЖЕНИЕ</a></li>
+								<li><a href="#">ОТЗЫВЫ</a></li>
+								<li><a href="#">ПРАВИЛА ЗАСЕЛЕНИЯ <br>И ПРОЖИВАНИЯ</a></li>
+								<li><a href="#">БЛОГ</a></li>
+								<li><a href="#">КОНТАКТЫ</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col_logo">
+							<a href="#" class="logo-footer">
+								<img src="img/logo2.svg" alt="alt">
+								<span>Гостевой комплекс <br>на берегу Чёрного моря</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg">
+								<a href="#">Политика конфиденциальности </a>
+							</div>
+							<div class="col-lg">
+								<p>г. Симферополь © Copyright  2022 г.</p>
+							</div>
+							<div class="col-lg">
+								<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+							</div>
+							<div class="col-lg">
+								<div class="btn_top"><i class="far fa-long-arrow-up"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/bootstrap/bootstrap.min.js"></script>
+<script src="libs/datetimepicker/moment-with-locales.js"></script>
+<script src="libs/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script src="libs/modal-video/jquery-modal-video.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.6"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
