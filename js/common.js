@@ -18,6 +18,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $menu.removeClass("fixed").addClass("default");
   }
 
+  /*input file*/
+	$("input[type='file']").change(function(){
+		var filename_text = $(this).parent().siblings(".name-upload");
+		var filename = $(this).val().replace(/.*\\/, "");
+		filename_text.html(filename);
+	});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -31,6 +38,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		} else {
 			$(".menu-mobile").slideUp(200);
 		}
+	});
+
+
+	$(".item-review .link-main").click(function(e) {
+		e.preventDefault();
+		$(this).parents(".item-review").find(".hidden-text").slideToggle(200);
+		$(this).parents(".item-review").find(".dots").slideToggle(200)
+		$(this).fadeOut(0);
+		
 	});
 
 
@@ -75,6 +91,50 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-arrow-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-arrow-right"></i><div/>',
+	});
+
+	$('.slider-for').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		swipe: false,
+		asNavFor: '.slider-nav',
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				swipe: true
+			}
+		}
+		]
+	});
+
+	$('.slider-nav').slick({
+		arrows: true,
+		dots: true,
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		asNavFor: '.slider-for',
+		touchThreshold: 1000,
+		centerMode: true,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><img src="img/slick-prev.svg" alt="alt"><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><img src="img/slick-next.svg" alt="alt"><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				
+
+			}
+		}
+		]
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
